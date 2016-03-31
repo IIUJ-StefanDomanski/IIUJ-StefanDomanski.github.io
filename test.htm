@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Snake v0.1</title>
+<style>
+      #pentagon
+{
+    BORDER: 1px solid;
+position: absolute;
+    top: 100;
+left: 100;
+width: 400;
+height: 280;
+}
+#jadlo
+{
+    position: absolute;
+    top: 140px;
+    left: 200px
+}
+#wynik{
+            position: absolute;
+            top: 265;
+            left: 0;
+            width: 400;
+            height: 14;
+            font-size: 10pt;
+        }
+    </style>
+<script type="text/javascript" src="wz_jsgraphics.js"></script>
+<script type="text/javascript" src="QueueCPP.js"></script>
+<script language="JavaScript">
+
+</script>
+</head>
+<body onLoad="init()">
+<h1>Snake v0.1</h1>
+<div id="pentagon">
+<div id="wynik">
+Wynik: 0
+</div>
+<div id="jadlo">
+<img src="jadlo.png">
+</div>
+</div>
+<INPUT TYPE="button" NAME="restart" VALUE="Restart" onClick="init()">
+<script type="text/javascript" src="snake.js"></script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+(C) Stefan Domañski, 2009
+</body>
+</html>
